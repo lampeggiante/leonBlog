@@ -51,7 +51,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
       },
     ],
     sidebarDepth: 2, // 侧边栏显示深度，默认1，最大2（显示到h3标题）
-    logo: "avatar.jpg", // 导航栏logo
+    logo: "/img/avatar.jpg", // 导航栏logo
     repo: "YuXingLiang214/leonBlog", // 导航栏右侧生成Github链接
     searchMaxSuggestions: 4, // 搜索结果显示最大数
     searchPlaceholder: "搜点什么吧～",
@@ -106,7 +106,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
 
     // 博主信息 (显示在首页侧边栏)
     blogger: {
-      avatar: "avatar.jpg",
+      avatar: "/img/avatar.jpg",
       name: "Leon Yu",
       slogan: "做一个有个性的开发者～",
     },
@@ -149,7 +149,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
 
   // 注入到页面<head>中的标签，格式[tagName, { attrName: attrValue }, innerHTML?]
   head: [
-    ["link", { rel: "icon", href: "avatar.jpg" }], //favicons，资源放在public文件夹
+    ["link", { rel: "icon", href: "/img/avatar.jpg" }], //favicons，资源放在public文件夹
     [
       "meta",
       {
