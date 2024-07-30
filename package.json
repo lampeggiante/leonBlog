@@ -9,7 +9,7 @@
     "predev": "node utils/check.js dev && vdoing",
     "prebuild": "node utils/check.js build && vdoing",
     "deploy": "bash deploy.sh",
-    "deploy-win": "bash deploy-win.sh",
+    "deploy:win": "bash deploy.sh win",
     "commit": "bash commit.sh",
     "editFm": "node utils/editFrontmatter.js",
     "baiduPush": "node utils/baiduPush.js https://xugaoyi.com && bash baiduPush.sh",
