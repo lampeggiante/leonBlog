@@ -4,6 +4,8 @@ import dayjs from "dayjs"
 // import baiduCode from './config/baiduCode' // 百度统计hm码
 // import htmlModules from './config/htmlModules' // 自定义插入的html块
 
+const baseUrl = '/leonBlog/'
+
 export default defineConfig4CustomTheme<VdoingThemeConfig>({
   theme: "vdoing", // 使用npm主题包
   locales: {
@@ -106,7 +108,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
 
     // 博主信息 (显示在首页侧边栏)
     blogger: {
-      avatar: "/img/avatar.jpg",
+      avatar: baseUrl + "img/avatar.jpg",
       name: "Leon Yu",
       slogan: "做一个有个性的开发者～",
     },
