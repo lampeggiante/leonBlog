@@ -4,12 +4,12 @@ set -e
 
 # 判断是否传入参数
 if [ "$1" = "win" ]; then
-  build_cmd="build:win"
-else
   build_cmd="build"
+else
+  build_cmd="build:mac"
 fi
 
-push_addr=https://github.com/YuXingLiang214/leonBlog.git # git提交地址，也可以手动设置，比如：push_addr=git@github.com:xugaoyi/vuepress-theme-vdoing.git
+push_addr=https://github.com/lampeggiante/leonBlog.git # git提交地址，也可以手动设置，比如：push_addr=git@github.com:xugaoyi/vuepress-theme-vdoing.git
 commit_info=`git describe --all --always --long`
 dist_path=docs/.vuepress/dist # 打包生成的文件夹路径
 push_branch=gh-pages # 推送的分支
