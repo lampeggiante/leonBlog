@@ -54,7 +54,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
     ],
     sidebarDepth: 2, // 侧边栏显示深度，默认1，最大2（显示到h3标题）
     logo: "/img/avatar.jpg", // 导航栏logo
-    repo: "YuXingLiang214/leonBlog", // 导航栏右侧生成Github链接
+    repo: "lampeggiante/leonBlog", // 导航栏右侧生成Github链接
     searchMaxSuggestions: 4, // 搜索结果显示最大数
     searchPlaceholder: "搜点什么吧～",
     lastUpdated: "最近更新～", // 开启更新时间，并配置前缀文字   string | boolean (取值为git提交时间)
