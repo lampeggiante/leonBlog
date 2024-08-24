@@ -4,7 +4,7 @@ import dayjs from "dayjs"
 // import baiduCode from './config/baiduCode' // 百度统计hm码
 // import htmlModules from './config/htmlModules' // 自定义插入的html块
 
-const baseUrl = '/leonBlog/'
+const baseUrl = "/leonBlog/"
 
 export default defineConfig4CustomTheme<VdoingThemeConfig>({
   theme: "vdoing", // 使用npm主题包
@@ -103,7 +103,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
     // 文章默认的作者信息，(可在md文件中单独配置此信息) string | {name: string, link?: string}
     author: {
       name: "leon yu", // 必需
-      link: "https://github.com/YuXingLiang214", // 可选的
+      link: "https://github.com/lampeggiante", // 可选的
     },
 
     // 博主信息 (显示在首页侧边栏)
@@ -125,7 +125,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
         {
           iconClass: "icon-github",
           title: "GitHub",
-          link: "https://github.com/YuXingLiang214",
+          link: "https://github.com/lampeggiante",
         },
       ],
     },
@@ -141,7 +141,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
     extendFrontmatter: {
       author: {
         name: "leon yu",
-        link: "https://github.com/YuXingLiang214",
+        link: "https://github.com/lampeggiante",
       },
     },
 
