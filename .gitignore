@@ -20,3 +20,6 @@ docs/.vuepress/dist
 
 # mac
 .DS_Store
+
+# books
+docs/.vuepress/public/books
