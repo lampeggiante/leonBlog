@@ -22,4 +22,4 @@ docs/.vuepress/dist
 .DS_Store
 
 # books
-docs/.vuepress/public/books
+assets/books
